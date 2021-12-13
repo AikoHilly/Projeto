@@ -1,7 +1,36 @@
 #header{
     background-color: #8FAFFF;
+    display: block;
 }
     
-.portifólio{
+.portfólio{
     background-color: #8FAFFF;
+    padding: 80px;
+}
+.container-port{
+    margin: 60px;
+}
+.imagem{
+    display: block;
+    max-width: 100%;
+}
+.box{
+    grid-template: 1fr;
+    background-color: white;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 37vh;
+    width: 220px;
+    box-shadow: 2px 2px 16px rgba(0,0,0,0.16);
+    border-radius: 5px;
+    margin-right: 60px;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.text-port{
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    max-width: 220px;
 }
