@@ -63,6 +63,88 @@
     max-width: 220px;
 }
 
+/**Seção sobre**/
+li{
+    list-style: none;
+}
+
+.linha-vert{
+    height: 150px;
+    border-right: 2px solid black;
+    margin-right: 670px;
+}
+
+.text-li{
+    text-align: end;
+    padding: 4px;
+}
+
+.text-li-2{
+    padding: 4px;
+}
+
+.sobre{
+    padding: 80px;
+}
+
+.fund{
+    padding-top: 20px;
+    max-width: 780px;
+}
+.img-fund{
+    display: block;
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.fund li{
+    display: grid;
+    grid-template-columns: auto 1fr;    
+}
+.lista-1{
+    padding-left: 300px;
+}
+
+.exp{
+    max-width: 1000px;
+}
+.img-exp{
+    display: block;
+    max-width: 100%;
+    border-radius: 50%;
+}
+.exp li{
+    display: grid;
+    grid-template-columns: auto 1fr;    
+}
+.lista-2{
+    padding-left: 540px;
+}
+
+.premiacao{
+    max-width: 780px;
+}
+.img-prem{
+    display: block;
+    max-width: 100%;
+    border-radius: 50%;
+}
+.premiacao li{
+    display: grid;
+    grid-template-columns: auto 1fr;  
+}
+.lista-3{
+    padding-left: 300px;
+}
+
+.img-facap{
+    display: block;
+    max-width: 100%;
+    border-radius: 50%;
+    margin-left: 580px;
+    margin-bottom: 40px;
+}
+
 /** Seção Contatos **/
 .contatos{
     background-color: #212529;
