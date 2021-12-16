@@ -76,11 +76,6 @@ li{
 
 .text-li{
     text-align: end;
-    padding: 4px;
-}
-
-.text-li-2{
-    padding: 4px;
 }
 
 .sobre{
@@ -99,7 +94,8 @@ li{
 
 .fund li{
     display: grid;
-    grid-template-columns: auto 1fr;    
+    grid-template-columns: auto 1fr;
+    gap: 1rem;    
 }
 .lista-1{
     padding-left: 300px;
@@ -115,7 +111,8 @@ li{
 }
 .exp li{
     display: grid;
-    grid-template-columns: auto 1fr;    
+    grid-template-columns: auto 1fr; 
+    gap: 1rem;   
 }
 .lista-2{
     padding-left: 540px;
@@ -131,7 +128,8 @@ li{
 }
 .premiacao li{
     display: grid;
-    grid-template-columns: auto 1fr;  
+    grid-template-columns: auto 1fr; 
+    gap: 1rem; 
 }
 .lista-3{
     padding-left: 300px;
