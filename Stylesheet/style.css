@@ -7,11 +7,29 @@
 .servicos{
     padding: 50px;
 }
-.serv-icon {
+.serv-icon{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    display: inline-block;
+    width: 298px;
 }
+.icon-serv{
+    max-width: 50%;
+    height: auto;
+    border-radius: 50%;
+    background-color: #FED136ff;
+}
+.title-serv{
+    font-size: 20px;
+    padding-top: 5px;
+}
+.text-icon{
+    font-size: 12px;
+    padding: 5px;
+    text-align: left;
+}
+
 
 /** Seção Portifólio **/
 .portfólio{
