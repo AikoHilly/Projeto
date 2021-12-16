@@ -30,7 +30,6 @@
     padding: 5px;
 }
 
-
 /** Seção Portifólio **/
 .portfólio{
     background-color: #8FAFFF;
@@ -62,4 +61,13 @@
     font-size: 12px;
     padding: 10px;
     max-width: 220px;
+}
+
+/** Seção Contatos **/
+.contatos{
+    background-color: #212529;
+    color: #ffffff;
+}
+.btn-contatos{
+    background-color: #FED136ff;
 }
