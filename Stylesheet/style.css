@@ -264,15 +264,26 @@ li{
 }
 .form{
     margin-left: 100px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .form-box{
     margin-right: 100px;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 .bnt-cont{
     margin-top: 50px;
-    display: inline-block;
-    background-color: #FED136ff;
+    border-radius: 5px;
+    background-color: #FED136ff; 
+
+}
+.bnt-cont:hover{
+    box-shadow: 0 8px 12px 0#B89215 ,0 12px 30px 0#B89215;
 }
 /** Seção Footer **/
+.icon-rod{
+    border-radius: 50%;
+    max-width: 20px;
+}
+.text-rod{
+    font-size: 10px;
+}
