@@ -161,6 +161,7 @@ li{
 }
 .box-faca{
     max-width: 380px;
+    padding-right: 40px;
 }
 .img-facap{
     display: block;
@@ -168,24 +169,46 @@ li{
     border-radius: 50%;
 }
 
-@media (max-width: 520px) {
+@media (max-width: 728px) {
     .sobre{
         padding: 40px
     }
+    .text-li{
+        text-align: center;
+        font-size: 15px;
+    }
+    
+    .text-li-2{
+        text-align: center;
+        font-size: 15px;
+    }
+
     .fund li{
         grid-template-columns: 1fr;
     }
+    .box-fund{
+        padding: 20px;
+    }
+    
     .exp li{
         grid-template-columns: 1fr;
     }
+    .box-exp{
+        padding: 20px;
+    }
+
     .premiacao li{
         grid-template-columns: 1fr;
     }
+    .box-prem{
+        padding: 20px;
+    }
+
     .faca li{
         grid-template-columns: 1fr;
     }
     .box-faca{
-        padding: 5x;
+        padding-right: 40px;
     }
     .img-facap{
         min-width: 150px;
