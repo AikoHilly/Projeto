@@ -168,3 +168,13 @@ li{
 .btn-contatos{
     background-color: #FED136ff;
 }
+.form{
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 40%;
+}
+.form-box{
+    margin-right: 100px;
+    margin-top: 30px;
+    width: 40%;
+}
