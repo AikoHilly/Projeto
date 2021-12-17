@@ -174,22 +174,32 @@ li{
     border-radius: 50%;
     max-width: 70%;
 }
-
+/** Seção Patrocinadores **/
+.container-pat{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.icon-pat{
+   max-width: 150px;
+   margin-right: 50px;
+   margin-left: 50px;
+}
 /** Seção Contatos **/
 .contatos{
     background-color: #212529;
     color: #ffffff;
-}
-.btn-contatos{
-    background-color: #FED136ff;
+    padding: 50px;
 }
 .form{
     margin-left: 100px;
     margin-top: 30px;
-    width: 40%;
 }
 .form-box{
     margin-right: 100px;
     margin-top: 30px;
-    width: 40%;
+}
+.bnt-cont{
+    margin-top: 50px;
+    display: inline-block;
+    background-color: #FED136ff;
 }
