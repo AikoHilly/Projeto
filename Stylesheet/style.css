@@ -160,6 +160,21 @@ li{
     margin-bottom: 40px;
 }
 
+/** Seção Equipe **/
+#equipe{
+    background-color: #8FAFFF;
+    padding: 50px;
+}
+
+.eq{
+    text-align: center;
+}
+
+.icon-eq{
+    border-radius: 50%;
+    max-width: 70%;
+}
+
 /** Seção Contatos **/
 .contatos{
     background-color: #212529;
