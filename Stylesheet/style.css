@@ -36,7 +36,7 @@
     padding: 80px;
 }
 .container-port{
-    margin: 60px;
+    margin: 0 16px;
 }
 .imagem{
     display: block;
@@ -48,8 +48,8 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    height: 37vh;
-    width: 220px;
+    height: 210px;
+    max-width: 220px;
     box-shadow: 2px 2px 16px rgba(0,0,0,0.16);
     border-radius: 5px;
     margin-right: 60px;
@@ -58,8 +58,8 @@
 }
 .text-port{
     font-family: 'Roboto', sans-serif;
+    padding: 5px;
     font-size: 12px;
-    padding: 10px;
     max-width: 220px;
 }
 
@@ -214,7 +214,24 @@ li{
         min-width: 150px;
         min-height: 150px;
     }
-
+}
+@media (max-width: 580px) {
+    .sobre{
+        margin-top: 15px;
+        padding: 0;
+    }
+    .portfólio{
+        padding: 20px 10px;
+    }
+    .container-sobre{
+        margin: 0;
+    }
+    .box{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}    
 /** Seção Equipe **/
 #equipe{
     background-color: #8FAFFF;
