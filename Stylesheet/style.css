@@ -65,6 +65,12 @@
 
 /**Seção sobre**/
 
+.container-sobre{
+    margin: 0 16px;
+    justify-content: center;
+    align-content: center;
+}
+
 .sobre{
     padding: 80px;
     display: grid;
@@ -83,12 +89,12 @@ li{
 
 .text-li{
     text-align: end;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .text-li-2{
     text-align: start;
-    font-size: 12px;
+    font-size: 15px;
 }
 
 .fund{
@@ -106,8 +112,9 @@ li{
 }
 .fund li{
     display: grid;
-    grid-template-columns: auto 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;    
+    justify-items: center;
 }
 
 .exp{
@@ -124,8 +131,9 @@ li{
 }
 .exp li{
     display: grid;
-    grid-template-columns: auto 1fr; 
-    gap: 1rem;   
+    grid-template-columns: 1fr 1fr; 
+    gap: 1rem; 
+    justify-items: center;  
 }
 
 .premiacao{
@@ -142,8 +150,9 @@ li{
 }
 .premiacao li{
     display: grid;
-    grid-template-columns: auto 1fr; 
+    grid-template-columns: 1fr 1fr; 
     gap: 1rem; 
+    justify-items: center;
 }
 
 .faca{
@@ -157,8 +166,31 @@ li{
     display: block;
     max-width: 100%;
     border-radius: 50%;
-    margin-bottom: 40px;
 }
+
+@media (max-width: 520px) {
+    .sobre{
+        padding: 40px
+    }
+    .fund li{
+        grid-template-columns: 1fr;
+    }
+    .exp li{
+        grid-template-columns: 1fr;
+    }
+    .premiacao li{
+        grid-template-columns: 1fr;
+    }
+    .faca li{
+        grid-template-columns: 1fr;
+    }
+    .box-faca{
+        padding: 5x;
+    }
+    .img-facap{
+        min-width: 150px;
+        min-height: 150px;
+    }
 
 /** Seção Equipe **/
 #equipe{
