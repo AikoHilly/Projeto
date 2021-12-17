@@ -64,6 +64,13 @@
 }
 
 /**Seção sobre**/
+
+.sobre{
+    padding: 80px;
+    display: grid;
+    justify-items: center;
+}
+
 li{
     list-style: none;
 }
@@ -71,38 +78,44 @@ li{
 .linha-vert{
     height: 150px;
     border-right: 2px solid black;
-    margin-right: 670px;
+    margin-bottom: 15px;
 }
 
 .text-li{
     text-align: end;
+    font-size: 12px;
 }
 
-.sobre{
-    padding: 80px;
+.text-li-2{
+    text-align: start;
+    font-size: 12px;
 }
 
 .fund{
-    padding-top: 20px;
-    max-width: 780px;
+    margin-top: 20px;
+    display: grid;
+    justify-content: center;
+}
+.box-fund{
+    max-width: 380px;
 }
 .img-fund{
     display: block;
     max-width: 100%;
     border-radius: 50%;
 }
-
 .fund li{
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 1rem;    
 }
-.lista-1{
-    padding-left: 300px;
-}
 
 .exp{
-    max-width: 1000px;
+    display: grid;
+    justify-content: center;
+}
+.box-exp{
+    max-width: 380px;
 }
 .img-exp{
     display: block;
@@ -114,32 +127,36 @@ li{
     grid-template-columns: auto 1fr; 
     gap: 1rem;   
 }
-.lista-2{
-    padding-left: 540px;
-}
 
 .premiacao{
-    max-width: 780px;
+    display: grid;
+    justify-content: center;
 }
 .img-prem{
     display: block;
     max-width: 100%;
     border-radius: 50%;
 }
+.box-prem{
+    max-width: 380px;
+}
 .premiacao li{
     display: grid;
     grid-template-columns: auto 1fr; 
     gap: 1rem; 
 }
-.lista-3{
-    padding-left: 300px;
-}
 
+.faca{
+    display: grid;
+    justify-content: center;
+}
+.box-faca{
+    max-width: 380px;
+}
 .img-facap{
     display: block;
     max-width: 100%;
     border-radius: 50%;
-    margin-left: 580px;
     margin-bottom: 40px;
 }
 
