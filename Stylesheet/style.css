@@ -265,6 +265,7 @@ li{
    max-width: 150px;
    margin-right: 50px;
    margin-left: 50px;
+   padding: 15px;
 }
 /** Seção Contatos **/
 .contatos{
@@ -272,14 +273,7 @@ li{
     color: #ffffff;
     padding: 50px;
 }
-.form{
-    margin-left: 100px;
-    margin-top: 40px;
-}
-.form-box{
-    margin-right: 100px;
-    margin-top: 40px;
-}
+
 .bnt-cont{
     margin-top: 50px;
     border-radius: 5px;
