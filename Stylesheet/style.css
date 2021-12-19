@@ -1,7 +1,9 @@
 /** Página Inicial **/
 #header{
-    background-color: #8FAFFF;
     display: block;
+}
+#slider{
+    padding-top: 76px;
 }
 /** Seção Serviços **/
 .servicos{
@@ -61,6 +63,7 @@
     padding: 5px;
     font-size: 12px;
     max-width: 220px;
+    text-align: justify;
 }
 
 /**Seção Sobre**/
@@ -286,7 +289,7 @@ li{
 /** Seção Footer **/
 .icon-rod{
     border-radius: 50%;
-    max-width: 20px;
+    max-width: 30px;
 }
 .text-rod{
     font-size: 10px;
